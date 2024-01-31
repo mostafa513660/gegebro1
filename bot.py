@@ -12,7 +12,7 @@ def start(message):
         url = f"tg://user?id={idd}"
         ms = types.InlineKeyboardMarkup(row_width=2)
         cc2 = types.InlineKeyboardButton('GET VISA ',callback_data='dsa')
-        armx = types.InlineKeyboardButton('ARMX STAR', url='https://t.me/UD_UC')
+        armx = types.InlineKeyboardButton('ARMX STAR', url='https://t.me/T4_Mohamed')
         ms.add(armx,cc2)
         bot.reply_to(message,
                    f"""أهلا  [{first + last}]({url}) 
