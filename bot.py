@@ -25,10 +25,10 @@ def visaas(message):
         global on
         on=True
         if on==True:
-            with open('C:\\Users\\SMSM\\Downloads\\Compressed\\muhelpodn_gggjktu-main\\muhelpodn_gggjktu-main\\combo.txt', 'r') as file:
+            with open('cc.txt', 'r') as file:
                 lines = file.readlines()  
             random.shuffle(lines)
-            with open('C:\\Users\\SMSM\\Downloads\\Compressed\\muhelpodn_gggjktu-main\\muhelpodn_gggjktu-main\\combo.txt', 'w') as file:
+            with open('cc.txt', 'w') as file:
                 file.writelines(lines)  
             idd = message.from_user.id
             first = message.from_user.first_name
@@ -44,7 +44,7 @@ def visaas(message):
     استني عليا بق لغاية ما اطلعلك فيزا 
     انا بفحص من كومبو فيز متنتظرنيش لما اطلعلك واحده هبعتلك رساله متقلقش""",
                     reply_markup=ms , parse_mode="markdown")
-            file=open('C:\\Users\\SMSM\\Downloads\\Compressed\\muhelpodn_gggjktu-main\\muhelpodn_gggjktu-main\\combo.txt',"+r")
+            file=open('cc.txt',"+r")
             for P in file.readlines():
                 fcc=P
                 cc = P.split('|')[0]
